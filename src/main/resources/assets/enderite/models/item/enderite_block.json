@@ -1,0 +1,6 @@
+{
+  "parent": "enderite:block/enderite_block",
+  "textures": {
+    "layer0": "enderite:item/enderite_block"
+  }
+}

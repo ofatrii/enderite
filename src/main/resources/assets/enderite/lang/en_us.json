@@ -1,4 +1,11 @@
 {
   "item.enderite.enderite_ingot": "Enderite Ingot",
-  "item.enderite.enderite_sword": "Enderite Sword"
+  "item.enderite.enderite_sword": "Enderite Sword",
+  "item.enderite.enderite_block": "Enderite Block",
+  "item.enderite.enderite_ore": "Enderite Ore",
+
+  "block.enderite.enderite_block": "Enderite Block",
+  "block.enderite.enderite_ore": "Enderite Ore",
+
+  "itemgroup.enderite.enderite_items": "Enderite Items"
 }

@@ -1,5 +1,8 @@
 package me.oftr;
 
+import me.oftr.block.ModBlocks;
+import me.oftr.item.ModItemGroups;
+import me.oftr.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,7 +22,10 @@ public class Enderite implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		ModItems.initialize();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+		ModItemGroups.registerItemGroups();
 
 		LOGGER.info("Hello Fabric world!");
 	}
